@@ -6,8 +6,7 @@ const counterId = setInterval(() => {
 let counterTimer = document.getElementById("timer");
   if (counterTimer.textContent == 0) {
     alert("Вы победили в конкурсе!");
-    clearInterval(counterId);
-    location.assign("https://www.mozilla.org/ru/firefox/download/thanks/");
+    clearInterval(counterId);    
   } else {
     counterTimer.textContent--;
   }
