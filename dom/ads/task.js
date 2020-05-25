@@ -1,5 +1,4 @@
 "use strict";
-console.log("test");
 
 const rotatorCases = document.querySelectorAll(".rotator__case");
 let currentCaseNumber = 0;
